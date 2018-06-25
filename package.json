@@ -1,0 +1,29 @@
+{
+  "name": "react-router-with-query",
+  "version": "1.0.4",
+  "description": "Parse query string to object and inject to component props",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lixuejiang/react-router-with-query.git"
+  },
+  "scripts": {
+    "compile": "NODE_ENV=production babel src -d lib",
+    "prepublish": "npm run compile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "router",
+    "querystring"
+  ],
+  "author": "lixuejiang",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "babel-preset-react-app": "^3.1.1"
+  }
+}

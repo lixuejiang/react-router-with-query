@@ -1,0 +1,9 @@
+{
+  "presets": [
+    "react-app",
+    "env"
+  ],
+  "plugins": [
+    "transform-es2015-modules-umd"
+  ]
+}
