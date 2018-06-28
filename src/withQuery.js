@@ -3,6 +3,9 @@ function withQuery(WrappedComponent) {
   return class extends React.Component {
     getQueryObject() {
       const search = location.search.substring(1)
+      if (search.length === 0) {
+        return null
+      }
       return search.split('&').reduce(function (prev, curr, i, arr) {
         var p = curr.split('=')
         if (p[1]) {
