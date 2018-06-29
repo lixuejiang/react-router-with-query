@@ -1,6 +1,6 @@
 {
   "name": "react-router-with-query",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Parse query string to object and inject to component props,把查询字符串解析为对象，注入到props里",
   "main": "lib/index.js",
   "repository": {
