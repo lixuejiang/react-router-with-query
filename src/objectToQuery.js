@@ -7,7 +7,7 @@ const objectToQuery = function (param, key, encode) {
   } else {
     for (var i in param) {
       var k = key == null ? i : key + (param instanceof Array ? '[' + i + ']' : '.' + i);
-      paramStr += urlEncode(param[i], k, encode);
+      paramStr += objectToQuery(param[i], k, encode);
     }
   }
   return paramStr;
