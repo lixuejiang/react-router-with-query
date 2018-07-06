@@ -1,3 +1,4 @@
 import withQuery from "./withQuery.js";
+import objectToQuery from "./objectToQuery.js"
 
-export default withQuery
+export { withQuery, objectToQuery }
